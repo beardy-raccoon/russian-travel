@@ -1,0 +1,16 @@
+.footer {
+  max-width: calc(100% - 96px);
+  padding: 92px 0 24px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    min-height: 310px;
+    flex-direction: column;
+    padding: 64px 118px 24px 16px;
+  }
+}
