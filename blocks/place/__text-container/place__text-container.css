@@ -3,3 +3,11 @@
   flex-direction: column;
   margin-left: 40px;
 }
+
+@media screen and (max-width: 680px) {
+  .place__text-container {
+    margin: 32px 16px 0;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

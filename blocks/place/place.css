@@ -1,3 +1,30 @@
 .place:not(:first-of-type) {
   padding-top: 80px;
 }
+
+.place {
+  width: calc(100% - 298px);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .place {
+    width: unset;
+  }
+
+  .place:not(:first-of-type) {
+    padding-top: 50px;
+  }
+}

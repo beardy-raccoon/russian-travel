@@ -5,3 +5,9 @@
   text-decoration: none;
   margin-left: 40px;
 }
+
+@media screen and (max-width: 680px) {
+  .place__website {
+    margin: 32px auto 0 0;
+  }
+}

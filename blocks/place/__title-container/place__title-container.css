@@ -1,3 +1,10 @@
 .place__title-container {
   display: flex;
 }
+
+@media screen and (max-width: 680px) {
+  .place__title-container {
+    flex-direction: column;
+    margin: 0 16px;
+  }
+}
