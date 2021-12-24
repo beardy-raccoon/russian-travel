@@ -17,8 +17,4 @@
   .footer__link:not(:last-of-type) {
     margin: 0 0 32px;
   }
-
-  .footer__link:last-of-type {
-    margin: 0 0 48px;
-  }
 }

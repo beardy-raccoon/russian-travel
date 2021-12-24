@@ -4,7 +4,25 @@
   padding-top: 92px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    width: calc(100% - 48px);
+    padding-top: 88px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
 }
 
 @media screen and (max-width: 550px) {

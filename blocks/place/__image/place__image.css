@@ -1,6 +1,8 @@
 .place__image {
+  width: 100%;
   max-width: 460px;
   max-height: 460px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,13 +21,6 @@
 
 @media screen and (max-width: 680px) {
   .place__image {
-    align-self: center;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .place__image {
-    max-width: 320px;
-    max-height: 320px;
+    max-width: 100%;
   }
 }
