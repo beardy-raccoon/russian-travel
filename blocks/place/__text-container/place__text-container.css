@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: column;
   margin-left: 40px;
+  width: 50%;
 }
 
 @media screen and (max-width: 680px) {
   .place__text-container {
-    margin: 32px 16px 0;
+    margin: 32px auto 0;
     font-size: 16px;
     line-height: 26px;
+    width: calc(100% - 32px);
   }
 }
