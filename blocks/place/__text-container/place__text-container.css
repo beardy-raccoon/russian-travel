@@ -5,6 +5,18 @@
   width: 50%;
 }
 
+@media screen and (max-width: 1024px) {
+  .place__text-container {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text-container {
+    margin-left: 28px;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .place__text-container {
     margin: 32px auto 0;

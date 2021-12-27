@@ -1,17 +1,18 @@
 .lead__image-container {
   margin: 64px auto 0;
-  width: calc(100% - 298px);
+  width: calc(100% - 296px);
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image-container {
-    width: calc(100% - 98px);
+    width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__image-container {
     width: 100%;
+    margin-top: 56px;
   }
 }
 
