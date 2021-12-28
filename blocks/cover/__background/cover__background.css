@@ -17,6 +17,11 @@
   z-index: 0;
 }
 
+.cover__background:hover .cover__overlay {
+  opacity: .8;
+  transition: opacity .3s;
+}
+
 @media screen and (max-width: 1024px) {
   .cover__background {
     max-height: 640px;
