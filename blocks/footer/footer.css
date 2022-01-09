@@ -21,7 +21,6 @@
 
 @media screen and (max-width: 550px) {
   .footer {
-    min-height: 310px;
     padding: 64px 118px 24px 16px;
     align-items: flex-start;
   }
